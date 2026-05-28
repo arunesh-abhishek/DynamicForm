@@ -4,16 +4,16 @@ Single-screen SwiftUI application that renders a dynamic form from a bundled loc
 
 ## Overview
 
-The app reads `Resources/DynamicForm.json` from the app bundle, decodes it into Codable models, and renders form fields dynamically based on the JSON schema. The UI supports text inputs, dropdowns, toggles, and checkboxes. Field state is stored centrally in an observable view model, and validation runs when the user submits the form.
+The app reads `DynamicForm.json` from the app bundle, decodes it into Codable models, and renders form fields dynamically based on the JSON schema. The UI supports text inputs, dropdowns, toggles, and checkboxes. Field state is stored centrally in an observable view model, and validation runs when the user submits the form.
 
 The implementation follows an MVVM structure with a small set of reusable SwiftUI views for each field type.
 
 ## Architecture
 
 ```text
-EulerityAssignment/
+DynamicForm/
 ├── App/
-│   └── EulerityAssignmentApp.swift
+│   └── DynamicFormApp.swift
 ├── Models/
 │   ├── FormSchema.swift
 │   └── FormConstants.swift
