@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		63D010EF2FC85F1100584707 /* AI_COLLABORATION_LOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 63D010EE2FC85F1100584707 /* AI_COLLABORATION_LOG.md */; };
+		63D010F32FC85F5700584707 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63D010F22FC85F5700584707 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		63D010D22FC85EDF00584707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		63D010C42FC85EDC00584707 /* DynamicForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D010D12FC85EDF00584707 /* DynamicFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D010DB2FC85EDF00584707 /* DynamicFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D010EE2FC85F1100584707 /* AI_COLLABORATION_LOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AI_COLLABORATION_LOG.md; sourceTree = "<group>"; };
+		63D010F22FC85F5700584707 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		63D010BB2FC85EDC00584707 = {
 			isa = PBXGroup;
 			children = (
+				63D010F22FC85F5700584707 /* README.md */,
+				63D010EE2FC85F1100584707 /* AI_COLLABORATION_LOG.md */,
 				63D010C62FC85EDC00584707 /* DynamicForm */,
 				63D010D42FC85EDF00584707 /* DynamicFormTests */,
 				63D010DE2FC85EDF00584707 /* DynamicFormUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D010EF2FC85F1100584707 /* AI_COLLABORATION_LOG.md in Resources */,
+				63D010F32FC85F5700584707 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +416,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +449,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
