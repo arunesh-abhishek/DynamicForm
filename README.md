@@ -1,4 +1,4 @@
-# EulerityAssignment
+# Dynamic Form
 
 Single-screen SwiftUI application that renders a dynamic form from a bundled local JSON file.
 
